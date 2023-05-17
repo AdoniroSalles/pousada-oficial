@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai'
 
+
 const Social = () => {
     return (
         <div className="hidden xl:flex-none xl:block" >

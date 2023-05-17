@@ -18,9 +18,9 @@ const imgs = [
 
 ];
 
-const renderSlides = imgs.map((num, i) => (
-    <SwiperSlide className="border-white-700 border-8 rounded-md  ">
-        <img className="trending-img" key={i} src={num} alt="" />
+const renderSlides = imgs.map((num, index) => (
+    <SwiperSlide className="border-white-700 border-8 rounded-md relative" key={index}>
+        <Image className="w-full h-full" width={0} height={0} sizes="100vw" src={num} alt="alt" />
     </SwiperSlide>
 ));
 
@@ -29,14 +29,17 @@ const SectionSlick = () => {
 
     return (
 
-        <div className="h-screen bg-slate-700 lg:h-[50vh] flex flex-col px-4">
-            <div className="flex-none text-center text-white container mx-auto pt-8 text-">
-                <h2 className="text-3xl uppercase font-serif font-semibold">Galeria</h2>
-                <div className="max-w-4xl  mx-auto">
-                    <p className="lg:text-lg">Conheça um pouco dos nossos chalés, veja um pouco do nosso ambiente. Todos os nossos chalés são equipados com tv, acesso a internet, frigobar, microondas. Oferecendo tudo para que você possa relaxar com mais tranquilidade.</p>
-                </div>
+        <div className="h-screen bg-slate-700 flex flex-col px-8  text-white text-center lg:h-[50vh] ">
+            <div className="flex-1 mt-10">
+                <div className='h-1  bg-gradient-to-r from-orange-400' />                
+                <h2 className=" text-3xl uppercase font-serif font-semibold my-3">Galeria</h2>
+                <div className='h-1 bg-gradient-to-l from-orange-400' />
             </div>
-            <div className="relative grow flex  items-center ">
+            <div className="flex-1 max-w-4xl  mx-auto">
+                <p className="lg:text-lg">Conheça um pouco dos nossos chalés, veja um pouco do nosso ambiente. Todos os nossos chalés são equipados com tv, acesso a internet, frigobar, microondas. Oferecendo tudo para que você possa relaxar com mais tranquilidade.</p>
+            </div>
+
+            <div className="grow relative flex  items-center ">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={20}
