@@ -1,21 +1,11 @@
-import Link from 'next/link';
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai'
+import SocialLinks from "./SocialLinks";
 
 
 const Social = () => {
     return (
-        <div className="hidden xl:flex-none xl:block" >
+        <div className="order-3 hidden lg:flex-none lg:block" >
             <div className="flex gap-3 flex-row-reverse">
-                <Link href='/'>
-                    <AiOutlineFacebook size={30} />
-                </Link>
-                <Link href='/'>
-                    <AiOutlineInstagram size={30} />
-                </Link>
-                <Link href='/'>
-                    <AiOutlineWhatsApp size={30} />
-                </Link>
-
+               <SocialLinks />
             </div>
         </div>
     )
