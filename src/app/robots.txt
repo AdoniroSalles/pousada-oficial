@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: 
+
+Sitemap: https://estilodecampos.com.br/sitemap.xml

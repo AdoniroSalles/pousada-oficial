@@ -13,7 +13,11 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'top-img': "url('/image/house_top.jpg')",
       },
+      colors: {
+        'airbnb-color' : '#FF385C'
+      }
     },
+
   },
   plugins: [],
 }
