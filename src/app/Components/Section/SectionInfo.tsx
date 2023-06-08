@@ -6,7 +6,7 @@ import AirbnbButton from '../Buttons/AirbnbButton';
 
 const SectionInfo = () => {
     return (
-        <section className='h-screen container mx-auto flex flex-col md:h-[60vh] lg:h-[50vh] px-8 pt-8'>
+        <section className='h-screen container mx-auto flex flex-col md:h-[60vh] lg:h-[50vh] px-8 py-8'>
             <TitleSection title='Faça sua Reserva' colorText='text-slate-700'/>
             <AirbnbButton/>
             <div className='grow grid grid-rows-3 items-center justify-center text-gray-900y text-sm lg:text-base lg:grid-cols-3 lg:grid-rows-none lg:gap-5'>

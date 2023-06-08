@@ -18,7 +18,7 @@ const SectionTop = () => {
                         Os chalés são o melhor lugar para você fugir da correria da cidade grande. Um lugar tranquilo e aconchegante para você  e sua familia passarem os melhores dias na cidade.
                     </p>
                     <p className="text-sm text-justify lg:text-base">
-                        Com 12 chalés a disposição, ocupando uma aréa de Xm² em uma região tranquila da cidade e proporcionando um bom contato com a natureza.
+                        Com 12 chalés a disposição, localizado proxímo ao centro, em uma região tranquila da cidade e proporcionando um bom contato com a natureza.
                     </p>
                 </div>
             </div>
