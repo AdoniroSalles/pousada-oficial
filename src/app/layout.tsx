@@ -12,7 +12,8 @@ export const metadata: Metadata = {
   description: 'Conheça os chalés Estilo de Campos, um lugar tranquilo e aconchegante para você e toda sua família. Venha se hospedar com a gente.',
   keywords: ['Campos do Jordão', 'Hospedagem', 'Conforto', 'Chalés', 'Pousadas', 'Natureza', 'Turismo'],
   verification: {
-    google: 'google-site-verification=MN4QpuRzgxDYUx5A0uwmwuFJfPRG_SDkAw1FXSdv7og'
+    google: 'MN4QpuRzgxDYUx5A0uwmwuFJfPRG_SDkAw1FXSdv7og'
+    
   },
 
 }
